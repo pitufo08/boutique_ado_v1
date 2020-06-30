@@ -237,14 +237,14 @@ input[name='q']::placeholder {
 	color: #17a2b8; /* text-info */
 }
 
-/* fixed top navbar only on medium and up */
+/* Product Form */
 
 .btn-file {
     position: relative;
     overflow: hidden;
 }
 
-.btn-file input[type=file] {
+.btn-file input[type="file"] {
     position: absolute;
     top: 0;
     right: 0;
@@ -264,6 +264,7 @@ input[name='q']::placeholder {
     border-color: #dc3545;
     border-radius: 0;
 }
+
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
